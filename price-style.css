@@ -16,6 +16,14 @@ body{
     text-decoration: none;
 }
 
+.judul h1 img {
+    transition: all 0.4s;
+}
+
+.judul h1 img:hover {
+    opacity: 50%;
+}
+
 .navigation {
     text-align: right;
 }
