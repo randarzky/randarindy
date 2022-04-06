@@ -7,9 +7,7 @@ body{
 
 .judul{
     text-decoration: none;
-    font: bold;
     float: left;
-    padding-top: 0px;
     padding-left: 150px;
 }
 
@@ -23,7 +21,7 @@ body{
 }
 
 .navi {
-    padding-top: 25px;
+    padding-top: 60px;
     margin-right: 160px;
     list-style: none;
     display: inline-flex;
@@ -34,8 +32,12 @@ body{
     text-decoration: none;
 }
 
+.navi li a {
+    font-size: 23px;
+}
+
 .navi-list {
-    width: 171px;
+    width: 170px;
 }
 
 .biodata {
@@ -81,12 +83,12 @@ h1{
 }
 
 .copyright-ul {
-    margin-top: 30px;
+    margin-top: 25px;
     color: black;
     text-align: center;
     list-style: none;
     display: inline-flex;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 40px;
 }
 
@@ -117,4 +119,3 @@ h1{
 .navi-list a:hover {
     color: black;
 }
-
