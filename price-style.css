@@ -41,7 +41,7 @@ body{
 .biodata {
 
     color: black;
-    padding: 100px;
+    padding: 50px;
     margin: 50px;
     background-color: white;
     border-radius: 50px;
@@ -60,7 +60,7 @@ h1{
 }
 
 .tulisan {
-    margin-top: 50px;
+    margin-top: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     text-align: center;
@@ -110,6 +110,17 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
+.link-sc a {
+    font-size: 60px;
+    color: black;
+    transition: all 0.4s;
+}
+
+.link-sc a:hover {
+    color: #ff8800;
+    transition: all 0.4s;
+}
+
 .navi-list a {
     transition: all 0.4s;
 }
@@ -117,4 +128,3 @@ h1{
 .navi-list a:hover {
     color: black;
 }
-
